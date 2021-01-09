@@ -3,7 +3,7 @@
  * Created: Friday, 8th January 2021 8:16:18 pm
  * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
- * Last Modified: Saturday, 9th January 2021 7:18:19 pm
+ * Last Modified: Sunday, 10th January 2021 1:34:30 am
  * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
  * Copyright (c) 2021 @quib_self
@@ -28,9 +28,9 @@ class UI {
             <br>
                 <span class="badge badge-primary"> Public Repose: ${user.public_repos}</span>
                 <span class="badge badge-secondary"> Public Gists: ${user.public_gists}</span>
-                <span class="badge badge-success"> Public Follower: ${user.followers}</span>
-                <span class="badge badge-warning"> Public Following: ${user.following}</span>
-             <br><br>
+                <span class="badge badge-success"> Follower: ${user.followers}</span>
+                <span class="badge badge-warning"> Following: ${user.following}</span>
+                <br>
 
             <ul class="list-group">
                 <li class="list-group-item">Company: ${user.company}</li>
