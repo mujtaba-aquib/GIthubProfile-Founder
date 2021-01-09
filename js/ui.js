@@ -3,7 +3,7 @@
  * Created: Friday, 8th January 2021 8:16:18 pm
  * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
- * Last Modified: Sunday, 10th January 2021 1:34:30 am
+ * Last Modified: Sunday, 10th January 2021 1:42:28 am
  * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
  * Copyright (c) 2021 @quib_self
@@ -25,17 +25,17 @@ class UI {
             </div>
             <div class="col-md-8">
             <h3>${user.name}</h3>
-            <br>
+            <h5>${user.location}</h5>
+            <br><br>
                 <span class="badge badge-primary"> Public Repose: ${user.public_repos}</span>
                 <span class="badge badge-secondary"> Public Gists: ${user.public_gists}</span>
                 <span class="badge badge-success"> Follower: ${user.followers}</span>
                 <span class="badge badge-warning"> Following: ${user.following}</span>
-                <br>
+            <br><br>
 
             <ul class="list-group">
                 <li class="list-group-item">Company: ${user.company}</li>
                 <li class="list-group-item">Website: <a href="${user.blog}">${user.blog}</a></li>
-                <li class="list-group-item">Location: ${user.location}</li>
                 <li class="list-group-item">Member Since: ${user.created_at}</li>
             </ul>
             </div>
