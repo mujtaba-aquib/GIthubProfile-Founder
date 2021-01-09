@@ -30,11 +30,11 @@ class UI {
                 <span class="badge badge-secondary"> Public Gists: ${user.public_gists}</span>
                 <span class="badge badge-success"> Public Follower: ${user.public_followers}</span>
                 <span class="badge badge-warning"> Public Following: ${user.public_following}</span>
-                <br>
+                <br><br>
 
             <ul class="list-group">
                 <li class="list-group-item">Company: ${user.company}</li>
-                <li class="list-group-item">Website: ${user.blog}</li>
+                <li class="list-group-item">Website: <a href="${user.blog}">${user.blog}</a></li>
                 <li class="list-group-item">Location: ${user.location}</li>
                 <li class="list-group-item">Member Since: ${user.created_at}</li>
             </ul>
