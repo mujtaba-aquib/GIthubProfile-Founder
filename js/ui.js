@@ -28,9 +28,9 @@ class UI {
             <br>
                 <span class="badge badge-primary"> Public Repose: ${user.public_repos}</span>
                 <span class="badge badge-secondary"> Public Gists: ${user.public_gists}</span>
-                <span class="badge badge-success"> Public Follower: ${user.public_followers}</span>
-                <span class="badge badge-warning"> Public Following: ${user.public_following}</span>
-                <br><br>
+                <span class="badge badge-success"> Public Follower: ${user.followers}</span>
+                <span class="badge badge-warning"> Public Following: ${user.following}</span>
+             <br><br>
 
             <ul class="list-group">
                 <li class="list-group-item">Company: ${user.company}</li>
